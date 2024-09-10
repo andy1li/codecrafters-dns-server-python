@@ -1,7 +1,7 @@
 # Build your own DNS server (Python)
-https://app.codecrafters.io/courses/dns-server/overview
+![](https://backend.codecrafters.io/progress/dns-server/2c1dc5ab-4973-4b1a-b186-6cc2d0eda6dc)
 
----
+https://app.codecrafters.io/courses/dns-server/overview
 
 ### Start server
 
@@ -11,7 +11,7 @@ https://app.codecrafters.io/courses/dns-server/overview
 
 ### Test manually with dig 
 
-`dig @127.0.0.1 -p 2053 codecrafters.io`
+`dig @127.0.0.1 -p 2053 +noedns codecrafters.io`
 
 ```
 ; <<>> DiG 9.10.6 <<>> @127.0.0.1 -p 2053 codecrafters.io
